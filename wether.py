@@ -27,7 +27,7 @@ def get_weather(api_key, city):
 def main():
     # Replace 'your_api_key' with your actual OpenWeatherMap API key
     api_key = '6ac51341fbe25af0043f9a7e166961c4'
-    city = input("Enter the city: ")
+    city = input("Enter the city name or ZIP code: ")
 
     get_weather(api_key, city)
 
