@@ -25,7 +25,6 @@ def get_weather(api_key, city):
         print(f"An error occurred: {e}")
 
 def main():
-    # Replace 'your_api_key' with your actual OpenWeatherMap API key
     api_key = '6ac51341fbe25af0043f9a7e166961c4'
     city = input("Enter the city name or ZIP code: ")
 
